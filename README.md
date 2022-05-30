@@ -1,7 +1,7 @@
 ### Overview
 A VR Client for Miro, short and sweet.
 
-All the previous attempts by our 3rd party partners had the same limitation: Content creation is a nightmare with controllers, point point, typey typey, cry yourself to sleep.
+All the previous attempts had the same limitation: Content creation is a nightmare with controllers, point point, typey typey, cry yourself to sleep.
 
 The imagined state:
 Create with your hands and voice.
@@ -23,12 +23,15 @@ The aim is to use the handtracking that the Oculus Quest 2 provides, combined wi
 #### Hand tracking
 This is pretty experimental and not a lot of documentation exists.
 
+Oculus + Unreal
+https://developer.oculus.com/documentation/unreal/unreal-hand-tracking/
+
 We will need to agree on a method of navigation, like pinch and move, or grab and move.
 
 ##### Proposed solution:
-One hand grab to pan
-Two hand grab to zoom
-Pinch to pick up item, release to drop
+- One hand grab to pan
+- Two hand grab to zoom
+- Pinch to pick up item, release to drop
 
 #### Board
 I initially imagined a board that you can walk around on, but realistically that will cause angry neck pains, since all the content will be at your feet.
