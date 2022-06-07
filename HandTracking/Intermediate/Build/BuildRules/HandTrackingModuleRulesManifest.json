@@ -1,8 +1,0 @@
-{
-	"SourceFiles": [
-		"C:\\Users\\andre\\Documents\\Unreal Projects\\Miro Hackathon\\HandTracking\\Source\\HandTracking\\HandTracking.Build.cs",
-		"C:\\Users\\andre\\Documents\\Unreal Projects\\Miro Hackathon\\HandTracking\\Source\\HandTracking.Target.cs",
-		"C:\\Users\\andre\\Documents\\Unreal Projects\\Miro Hackathon\\HandTracking\\Source\\HandTrackingEditor.Target.cs"
-	],
-	"EngineVersion": "4.27.2"
-}

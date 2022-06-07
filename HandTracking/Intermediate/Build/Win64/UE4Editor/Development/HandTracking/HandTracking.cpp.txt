@@ -1,2 +1,0 @@
-C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\Definitions.HandTracking.h
-C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Source\HandTracking\HandTracking.h
