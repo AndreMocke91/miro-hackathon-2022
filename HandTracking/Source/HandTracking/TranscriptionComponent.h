@@ -4,8 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Http.h"
 #include "TranscriptionComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTranscriptionComplete, FString, Text);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class HANDTRACKING_API UTranscriptionComponent : public UActorComponent
@@ -16,13 +18,11 @@ public:
 	// Sets default values for this component's properties
 	UTranscriptionComponent();
 
-protected:
-	// Called when the game starts
-	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintCallable, Category = "Transcription")
+	FString TranscribeWav(FString FilePath);
+	
+	void OnResponseReceived(FHttpRequestPtr Req, FHttpResponsePtr Res, bool bConnected);
 
-public:	
-	// Called every frame
-	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
-
-		
+	UPROPERTY(BlueprintAssignable, Category = "WebSockets")
+	FOnTranscriptionComplete OnTranscriptionComplete;
 };

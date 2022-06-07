@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HandTracking.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2702B548-12CF-4D45-BD16-804244B78C49}</UniqueIdentifier>
+      <UniqueIdentifier>{EDB8E8AD-F8E0-4E31-9098-D99BE45980C1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HandTracking.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8E12D8D2-0F30-4CDD-8BA2-DDF387310EF3}</UniqueIdentifier>
+      <UniqueIdentifier>{A915D527-609D-4E8C-9675-8FCE894A39B7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HandTracking">
-      <UniqueIdentifier>{23540724-2ED4-4ABF-AF27-AFD07DA1A26C}</UniqueIdentifier>
+      <UniqueIdentifier>{0F8E9CFB-E2B2-493B-92AF-E0CB949E9E2F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HandTracking\HandTracking.Build.cs">
       <Filter>Source\HandTracking</Filter>
@@ -36,6 +36,12 @@
       <Filter>Source\HandTracking</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\HandTracking\HandTracking.h">
+      <Filter>Source\HandTracking</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\HandTracking\TranscriptionApiComponent.cpp">
+      <Filter>Source\HandTracking</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\HandTracking\TranscriptionApiComponent.h">
       <Filter>Source\HandTracking</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\HandTracking\TranscriptionComponent.cpp">

@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-HandTracking-2951.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\HandTrackingEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\HandTracking.cpp.obj"
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\TranscriptionComponent.cpp.obj"
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\HandTracking.init.gen.cpp.obj"
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\TranscriptionComponent.gen.cpp.obj"
+"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\Default.rc2.res"
+/OUT:"C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-2951.lib"
