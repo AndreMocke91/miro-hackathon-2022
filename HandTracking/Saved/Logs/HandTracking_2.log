@@ -1841,3 +1841,59 @@ Script Stack (0 frames):
 [2022.06.07-16.08.51:896][ 79]Candidate modules for hot reload:
 [2022.06.07-16.08.51:896][ 79]  HandTracking
 [2022.06.07-16.08.51:896][ 79]Launching UnrealBuildTool... [C:/Users/andre/Documents/Unreal/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HandTracking,0217 HandTrackingEditor Win64 Development -Project="C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/HandTracking.uproject" "C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/HandTracking.uproject"  -IgnoreJunk]
+[2022.06.07-16.09.47:001][ 79]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\andre\Documents\Unreal Projects\Miro Hackathon).
+Creating makefile for HandTrackingEditor (no existing makefile)
+Parsing headers for HandTrackingEditor
+  Running UnrealHeaderTool "C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\HandTracking.uproject" "C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\HandTrackingEditor\Development\HandTrackingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\andre\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+LogInit: Display: Loading text-based GConfig....
+Reflection code generated for HandTrackingEditor in 10,1793909 seconds
+Building HandTrackingEditor...
+Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 6 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] HandTracking.cpp
+  [4/9] TranscriptionComponent.cpp
+  [5/9] HandTracking.init.gen.cpp
+  [6/9] TranscriptionComponent.gen.cpp
+  [7/9] UE4Editor-HandTracking-0217.lib
+     Creating library C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.lib and object C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.exp
+  [8/9] UE4Editor-HandTracking-0217.dll
+     Creating library C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.suppressed.lib and object C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.suppressed.exp
+  [9/9] HandTrackingEditor.target
+Total time in Parallel executor: 31,21 seconds
+Total execution time: 55,00 seconds
+
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: New page: Compilation - 07 Jun 2022, 20:09:47
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\andre\Documents\Unreal Projects\Miro Hackathon).
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Creating makefile for HandTrackingEditor (no existing makefile)
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Parsing headers for HandTrackingEditor
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\HandTracking.uproject" "C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\HandTrackingEditor\Development\HandTrackingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\andre\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Reflection code generated for HandTrackingEditor in 10,1793909 seconds
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Building HandTrackingEditor...
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Using Visual Studio 2019 14.29.30143 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog: Building 9 actions with 6 processes...
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [1/9] Default.rc2
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [3/9] HandTracking.cpp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [4/9] TranscriptionComponent.cpp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [5/9] HandTracking.init.gen.cpp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [6/9] TranscriptionComponent.gen.cpp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [7/9] UE4Editor-HandTracking-0217.lib
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:      Creating library C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.lib and object C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.exp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [8/9] UE4Editor-HandTracking-0217.dll
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:      Creating library C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.suppressed.lib and object C:\Users\andre\Documents\Unreal Projects\Miro Hackathon\HandTracking\Intermediate\Build\Win64\UE4Editor\Development\HandTracking\UE4Editor-HandTracking-0217.suppressed.exp
+[2022.06.07-16.09.47:001][ 79]CompilerResultsLog:   [9/9] HandTrackingEditor.target
+[2022.06.07-16.09.47:002][ 79]CompilerResultsLog: Total time in Parallel executor: 31,21 seconds
+[2022.06.07-16.09.47:002][ 79]CompilerResultsLog: Total execution time: 55,00 seconds
+[2022.06.07-16.09.47:002][ 79]LogMainFrame: MainFrame: Module compiling took 55.121 seconds
+[2022.06.07-16.09.47:004][ 79]Reloading module HandTracking after successful compile.
+[2022.06.07-16.09.47:026][ 79]LogClass: Could not find existing package /Script/HandTracking for HotReload of class TranscriptionComponent, assuming a new package.
+[2022.06.07-16.09.47:032][ 79]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HandTracking' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.06.07-16.09.47:077][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2022.06.07-16.09.47:089][ 79]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3823 classes and 930 folders.
+[2022.06.07-16.09.47:208][ 79]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.06.07-16.09.49:916][ 83]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.06.07-16.09.49:945][ 84]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2022.06.07-16.10.00:442][ 85]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Source/HandTracking/TranscriptionComponent.cpp'
