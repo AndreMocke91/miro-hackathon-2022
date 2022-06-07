@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HandTracking",
+			"Path": "C:\\Users\\andre\\Documents\\Unreal Projects\\Miro Hackathon\\HandTracking\\Source\\HandTracking.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HandTrackingEditor",
+			"Path": "C:\\Users\\andre\\Documents\\Unreal Projects\\Miro Hackathon\\HandTracking\\Source\\HandTrackingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
