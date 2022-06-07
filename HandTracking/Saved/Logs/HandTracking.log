@@ -1389,3 +1389,229 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.06.07-09.51.57:865][801]LogSavePackage: Moving 'C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Saved/Sticky_Auto2FF8A3F904B0C31986DAF1BAC402DF557.tmp' to 'C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Saved/Autosaves/Game/Actors/Sticky_Auto2.uasset'
 [2022.06.07-09.51.57:866][801]LogFileHelpers: Auto-saving content packages took 0.031
 [2022.06.07-09.52.39:916][614]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interfaces/BoardInterface.BoardInterface
+[2022.06.07-10.02.45:065][ 26]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.06.07-10.07.55:345][598]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.06.07-10.07.55:345][598]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.07-10.12.25:973][205]LogTemp: Repeating last play command: VR Preview
+[2022.06.07-10.12.25:979][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.07-10.12.25:980][205]LogHMD: Initializing OVRPlugin session
+[2022.06.07-10.12.26:218][205]LogHMD: Allocating Oculus 3200 x 1600 rendertarget swapchain
+[2022.06.07-10.12.26:219][205]PIE: New page: PIE session: Default (07 Jun 2022, 14:12:26)
+[2022.06.07-10.12.26:219][205]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2022.06.07-10.12.26:222][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003568s)
+[2022.06.07-10.12.26:224][205]LogAIModule: Creating AISystem for world Default
+[2022.06.07-10.12.26:224][205]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2022.06.07-10.12.26:224][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005450s)
+[2022.06.07-10.12.26:262][205]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2022.06.07-10.12.26:282][205]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.07-10.12.26:282][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.07-10.12.26:283][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.07-10.12.26:283][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.07-10.12.26:284][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.07-10.12.26:284][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.07-10.12.26:284][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.07-10.12.26:284][205]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.07-10.12.26:288][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.26:288][205]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.26:290][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.26:290][205]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.26:291][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.26:291][205]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.26:293][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.26:293][205]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.26:296][205]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.26:296][205]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.26:308][205]LogAudioMixer: Display: Using Audio Device BenQ GL2780 (NVIDIA High Definition Audio)
+[2022.06.07-10.12.26:309][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.07-10.12.26:309][205]LogAudioMixer: Display: Creating Master Submix 'RecordingOutput'
+[2022.06.07-10.12.26:309][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.07-10.12.26:310][205]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.07-10.12.26:310][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.07-10.12.26:310][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.07-10.12.26:311][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.07-10.12.26:311][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.07-10.12.26:311][205]LogInit: FAudioDevice initialized.
+[2022.06.07-10.12.26:311][205]LogAudio: Display: Audio Device (ID: 4) registered with world 'Default'.
+[2022.06.07-10.12.26:323][205]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.07-10.12.26:337][205]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2022.06.07-10.12.26:388][205]LogLoad: Game class is 'HandTracking_GM_C'
+[2022.06.07-10.12.26:390][205]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2022.06.07-12.12.26
+[2022.06.07-10.12.26:390][205]LogWorld: Bringing up level for play took: 0.000937
+[2022.06.07-10.12.26:390][205]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:434][205]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:442][205]PIE: Server logged in
+[2022.06.07-10.12.26:445][205]PIE: Play in editor total start time 0,468 seconds.
+[2022.06.07-10.12.26:446][205]LogEngine: Changing dynamic resolution state.
+[2022.06.07-10.12.26:447][205]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:447][205]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:448][205]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.26:457][205]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2022.06.07-10.12.26:497][208]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2022.06.07-10.12.28:061][315]LogSkeletalMesh: Building Skeletal Mesh OculusHandMesh...
+[2022.06.07-10.12.28:065][315]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Maps/UEDPIE_0_Default.Default:PersistentLevel.BP_HandtrackingPawn_C_0.OculusHand_L.OculusHandMesh
+[2022.06.07-10.12.28:069][315]LogSkeletalMesh: Building Skeletal Mesh OculusHandMesh...
+[2022.06.07-10.12.28:073][315]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Maps/UEDPIE_0_Default.Default:PersistentLevel.BP_HandtrackingPawn_C_0.OculusHand_R.OculusHandMesh
+[2022.06.07-10.12.28:088][316]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.06.07-10.12.29:554][316]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.466 s
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: === Handled ensure: ===
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: 
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Engine/Private/Components/SceneComponent.cpp] [Line: 641]
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: 
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: Stack: 
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff851895179 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85030d353 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff84fdb35c9 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85030c251 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8502ab4dc UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85036a424 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff828b52a82 UE4Editor-OculusInput.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8501b9277 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8501eef74 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85103410e UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85103d2e4 UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85a582398 UE4Editor-Core.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85a5827ce UE4Editor-Core.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85a5940bd UE4Editor-Core.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8510593be UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85105faba UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85074349f UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff85074e2fc UE4Editor-Engine.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff858cf14c3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8595f2ba6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f587a0 UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f70fcc UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f710ba UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f740dd UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f85984 UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff7b0f8853a UE4Editor.exe!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8f4977034 KERNEL32.DLL!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: [Callstack] 0x00007ff8f4f42651 ntdll.dll!UnknownFunction []
+[2022.06.07-10.12.29:554][316]LogOutputDevice: Error: 
+[2022.06.07-10.12.29:555][316]LogStats:                SubmitErrorReport -  0.000 s
+[2022.06.07-10.12.47:516][316]LogStats:                    SendNewReport - 17.960 s
+[2022.06.07-10.12.47:516][316]LogStats:             FDebug::EnsureFailed - 19.428 s
+[2022.06.07-10.12.47:518][316]LogAudioMixer: Resetting audio stream to device id 
+[2022.06.07-10.12.47:527][316]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.47:527][316]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.47:550][316]LogAudioMixer: Resetting audio stream to device id 
+[2022.06.07-10.12.47:556][316]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.47:556][316]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.47:678][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.07-10.12.47:678][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2022.06.07-10.12.47:712][317]LogSlate: Window 'HandTracking Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2022.06.07-10.12.47:752][317]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.07-10.12.47:752][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.07-10.12.47:759][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.07-10.12.47:772][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.07-10.12.47:798][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.07-10.12.47:800][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.07-10.12.47:807][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.06.07-10.12.47:837][318]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.06.07-10.12.47:845][318]LogEngine: Changing dynamic resolution state.
+[2022.06.07-10.12.53:011][766]LogTemp: Repeating last play command: VR Preview
+[2022.06.07-10.12.53:018][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.07-10.12.53:019][766]LogHMD: Initializing OVRPlugin session
+[2022.06.07-10.12.53:294][766]LogHMD: Allocating Oculus 3200 x 1600 rendertarget swapchain
+[2022.06.07-10.12.53:294][766]PIE: New page: PIE session: Default (07 Jun 2022, 14:12:53)
+[2022.06.07-10.12.53:294][766]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Default
+[2022.06.07-10.12.53:298][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003809s)
+[2022.06.07-10.12.53:299][766]LogAIModule: Creating AISystem for world Default
+[2022.06.07-10.12.53:300][766]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2022.06.07-10.12.53:300][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Default.Default to /Game/Maps/UEDPIE_0_Default.Default (0.005759s)
+[2022.06.07-10.12.53:328][766]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.06.07-10.12.53:331][766]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.06.07-10.12.53:331][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.07-10.12.53:331][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.07-10.12.53:332][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.07-10.12.53:332][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.07-10.12.53:332][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.07-10.12.53:332][766]LogAudioMixer: Display: Initializing audio mixer.
+[2022.06.07-10.12.53:335][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.53:335][766]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.53:337][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.53:337][766]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.53:339][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.53:339][766]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.53:340][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.53:340][766]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.53:343][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.06.07-10.12.53:343][766]LogAudioMixer: Display: 1: FrontRight
+[2022.06.07-10.12.53:358][766]LogAudioMixer: Display: Using Audio Device BenQ GL2780 (NVIDIA High Definition Audio)
+[2022.06.07-10.12.53:359][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.07-10.12.53:359][766]LogAudioMixer: Display: Creating Master Submix 'RecordingOutput'
+[2022.06.07-10.12.53:359][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.07-10.12.53:359][766]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.06.07-10.12.53:359][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.06.07-10.12.53:359][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.06.07-10.12.53:361][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.06.07-10.12.53:361][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.06.07-10.12.53:361][766]LogInit: FAudioDevice initialized.
+[2022.06.07-10.12.53:361][766]LogAudio: Display: Audio Device (ID: 5) registered with world 'Default'.
+[2022.06.07-10.12.53:375][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.07-10.12.53:387][766]LogHMD: Allocating Oculus 3648 x 1840 rendertarget swapchain
+[2022.06.07-10.12.53:455][766]LogLoad: Game class is 'HandTracking_GM_C'
+[2022.06.07-10.12.53:456][766]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Default.Default up for play (max tick rate 0) at 2022.06.07-12.12.53
+[2022.06.07-10.12.53:456][766]LogWorld: Bringing up level for play took: 0.001133
+[2022.06.07-10.12.53:457][766]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:506][766]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:512][766]PIE: Server logged in
+[2022.06.07-10.12.53:515][766]PIE: Play in editor total start time 0,497 seconds.
+[2022.06.07-10.12.53:515][766]LogEngine: Changing dynamic resolution state.
+[2022.06.07-10.12.53:516][766]LogSkinnedMeshComp: Warning: GetSocketByName(Index3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:516][766]LogSkinnedMeshComp: Warning: GetSocketByName(Middle3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:516][766]LogSkinnedMeshComp: Warning: GetSocketByName(Thumb3): No SkeletalMesh for Component(OculusHand_R) Actor(BP_HandtrackingPawn_C_0)
+[2022.06.07-10.12.53:526][766]LogHMD: Allocating Oculus 3648 x 1840 depth rendertarget swapchain
+[2022.06.07-10.12.53:565][769]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2022.06.07-10.12.55:642][912]LogSkeletalMesh: Building Skeletal Mesh OculusHandMesh...
+[2022.06.07-10.12.55:646][912]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Maps/UEDPIE_0_Default.Default:PersistentLevel.BP_HandtrackingPawn_C_0.OculusHand_L.OculusHandMesh
+[2022.06.07-10.12.55:650][912]LogSkeletalMesh: Building Skeletal Mesh OculusHandMesh...
+[2022.06.07-10.12.55:654][912]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Maps/UEDPIE_0_Default.Default:PersistentLevel.BP_HandtrackingPawn_C_0.OculusHand_R.OculusHandMesh
+[2022.06.07-10.13.15:257][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.07-10.13.15:257][315]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Default
+[2022.06.07-10.13.15:298][315]LogSlate: Window 'HandTracking Preview [NetMode: Standalone]  (64-bit/Windows) OculusHMD' being destroyed
+[2022.06.07-10.13.15:333][315]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2022.06.07-10.13.15:334][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.07-10.13.15:347][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.07-10.13.15:359][315]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.07-10.13.15:385][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.07-10.13.15:387][315]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.06.07-10.13.15:395][315]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2022.06.07-10.13.15:435][316]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.06.07-10.13.15:444][316]LogEngine: Changing dynamic resolution state.
+[2022.06.07-10.17.43:803][658]BlueprintLog: New page: Compile BoardInterface
+[2022.06.07-10.17.43:844][658]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2022.06.07-10.18.10:707][477]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2022.06.07-10.18.10:726][477]LogContentBrowser: Creating deferred item: NewInterface
+[2022.06.07-10.18.18:588][334]LogContentBrowser: Attempting asset rename: NewInterface -> BoardStateComponentInterface
+[2022.06.07-10.18.18:592][334]LogContentBrowser: End creating deferred item NewInterface
+[2022.06.07-10.19.17:948][609]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Interfaces/WidgetInterface.WidgetInterface
+[2022.06.07-10.19.51:830][721]BlueprintLog: New page: Compile WidgetInterface
+[2022.06.07-10.19.51:864][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.06.07-10.19.52:178][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/WidgetInterface" FILE="C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Content/Interfaces/WidgetInterface.uasset" SILENT=true
+[2022.06.07-10.19.52:181][745]LogSavePackage: Moving 'C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Saved/WidgetInterface420103DC4D9181B099E472A55E2F5F41.tmp' to 'C:/Users/andre/Documents/Unreal Projects/Miro Hackathon/HandTracking/Content/Interfaces/WidgetInterface.uasset'
+[2022.06.07-10.19.52:197][745]AssetCheck: New page: Asset Save: WidgetInterface
+[2022.06.07-10.19.52:198][745]LogContentValidation: Display: Validating Blueprint /Game/Interfaces/WidgetInterface.WidgetInterface
