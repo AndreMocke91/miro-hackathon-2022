@@ -23,6 +23,6 @@ public:
 
 	void OnResponseReceived(FHttpRequestPtr Req, FHttpResponsePtr Res, bool bConnected);
 
-	UPROPERTY(BlueprintAssignable, Category = "WebSockets")
+	UPROPERTY(BlueprintAssignable, Category = "Transcription")
 	FOnApiTranscriptionComplete OnApiTranscriptionComplete;
 };

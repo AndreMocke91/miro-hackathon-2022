@@ -38,11 +38,14 @@ void UTranscriptionApiComponent::OnResponseReceived(FHttpRequestPtr Req, FHttpRe
 	int32 ResCode = Res->GetResponseCode();
 
 	if (ResCode != 200) {
+		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, "Failed reqest to transcribe");
+		UE_LOG(LogTemp, Warning, TEXT("Failed transcription request"))
 		return;
 	}
 
 	FString responseString = Res->GetContentAsString();
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, "Trying to parse message from server: " + responseString);
+	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, "Got transcription response: " + responseString);
+	UE_LOG(LogTemp, Warning, TEXT("Got transcription response"))
 
 	TSharedPtr<FJsonObject> JsonObj;
 	TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(responseString);
