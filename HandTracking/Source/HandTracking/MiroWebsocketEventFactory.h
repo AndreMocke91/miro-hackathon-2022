@@ -8,10 +8,11 @@
 UENUM(BlueprintType)
 enum EMiroWebsocketEventType
 {
-	Created UMETA(DisplayName = "Created"),
-	Transformed UMETA(DisplayName = "Transformed"),
+	ItemCreated UMETA(DisplayName = "ItemCreated"),
+	ItemTransformed UMETA(DisplayName = "ItemTransformed"),
+	CursorMoved UMETA(DisplayName = "CursorMoved"),
+	NoOp UMETA(DisplayName = "NoOp"),
 };
-
 
 USTRUCT(BlueprintType)
 struct FMiroWebsocketEvent
@@ -20,6 +21,15 @@ struct FMiroWebsocketEvent
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MiroWebsockets")
 	TEnumAsByte<EMiroWebsocketEventType> EventType;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MiroWebsockets")
+	FString Content;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MiroWebsockets")
+	FString Id;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MiroWebsockets")
+	float xPos;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "MiroWebsockets")
+	float yPos;
 };
 /**
  * 
