@@ -19,7 +19,7 @@ FMiroWebsocketEvent MiroWebsocketEventFactory::ParseServerEvent(FString rawStrin
 	TSharedRef<TJsonReader<>> Reader = TJsonReaderFactory<>::Create(rawString);
 	FJsonSerializer::Deserialize(Reader, ResponseObj);
 
-	GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, "Trying to parse message from server: " + rawString);
+	// GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Cyan, "Trying to parse message from server: " + rawString);
 
 	if (ResponseObj == nullptr) {
 		GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, "Could not parse message from server: " + rawString);
