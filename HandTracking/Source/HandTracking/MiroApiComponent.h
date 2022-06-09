@@ -73,20 +73,20 @@ USTRUCT(BlueprintType)
 struct FCreateStickyRequest {
 	GENERATED_BODY()
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString boardId;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FString boardId;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString apiAccessToken;
+	FString apiAccessToken;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString content;
+	FString content;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int XPos;
+	float XPos;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		int YPos;
+	float YPos;
 };
 
 // Delegate definitions

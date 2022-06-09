@@ -75,7 +75,7 @@ void UMiroApiComponent::CreateSticky(FCreateStickyRequest CreateStickyRequest)
 	Request->SetHeader("Authorization", AuthHeader);
 	Request->SetHeader("Accept", "application/json");
 	Request->SetHeader("Content-Type", "application/json");
-	FString Body = FString::Printf(TEXT("{\"data\": {\"content\":\"%s\"}, \"position\":{\"x\": %i, \"y\": %i } }"), *CreateStickyRequest.content, CreateStickyRequest.XPos, CreateStickyRequest.YPos);
+	FString Body = FString::Printf(TEXT("{\"data\": {\"content\":\"%s\"}, \"position\":{\"x\": %f, \"y\": %f } }"), *CreateStickyRequest.content, CreateStickyRequest.XPos, CreateStickyRequest.YPos);
 	Request->SetContentAsString(Body); // TODO add content and position
 	Request->OnProcessRequestComplete().BindUObject(this, &UMiroApiComponent::OnCreateStickyResponse);
 	Request->ProcessRequest();
