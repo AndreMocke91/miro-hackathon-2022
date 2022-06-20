@@ -11,7 +11,7 @@
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnWebsocketEventReceivedDelegate, FMiroWebsocketEvent, MiroWebsocketEvent);
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(Blueprintable, meta = (BlueprintSpawnableComponent))
 class HANDTRACKING_API UMiroWebsocketClientComponent : public UActorComponent
 {
 	GENERATED_BODY()
