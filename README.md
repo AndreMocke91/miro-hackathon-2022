@@ -1,57 +1,31 @@
-### Overview
-A VR Client for Miro, short and sweet.
+A VR Client for Miro.
 
-All the previous attempts had the same limitation: Content creation is a nightmare with controllers, point point, typey typey, cry yourself to sleep.
 
-The imagined state:
-Create with your hands and voice.
+# Prerequisites
 
-The aim is to use the handtracking that the Oculus Quest 2 provides, combined with voice transcription for content.
+This project assumes you'll be working on Windows.
 
-- We will not embed a Miro board, we will create a new client
+1. Use the Epic Games launcher to install UnrealEngine 4
+1. Install Microsoft VisualStudio
 
-### Functional Requirements
+# Getting started
 
-- Render hardcoded board
-- Use hands to navigate the board
-- Widget Palette on one arm with notes, shapes cards, ability to change color
-- Can pick up item from Widget Pallet, and place on board
-- Can pick up widget from board to update
-- When widget is held in front of mouth, the user can say what content it should have
+## First time project setup
 
-### Chunks of work
-#### Hand tracking
-This is pretty experimental and not a lot of documentation exists.
+1. Clone this repo into `Documents/Unreal Projects`
+1. In the file file explorer, right click on `HandTracking.uproject` and select "Generate Visual Studio project files"
+1. In Epic Games launcher > Unreal engine > Library > double click on HandTracking to open the project Unreal
+1. In Unreal Engine 4:
+  1. Click Compile; the C++ project files should compile successfully
+  1. Click Build; the project should build successfully
 
-Oculus + Unreal
-https://developer.oculus.com/documentation/unreal/unreal-hand-tracking/
+## Miro API Credentials
 
-We will need to agree on a method of navigation, like pinch and move, or grab and move.
+To call against the Miro API you will need to provide a valid API token:
+1. See the [Miro developer quickstart](https://developers.miro.com/docs/rest-api-build-your-first-hello-world-app) for instructions on how to generate a new token.
+2. Add the token to a file under `Handtracking/Config/.miro-api-credentials`
+3. Confirm the API credentials are loaded correctly by running the game and confirming that you see a log line like `[MiroApi] Using API access token: <token>`
 
-##### Proposed solution:
-- One hand grab to pan
-- Two hand grab to zoom
-- Pinch to pick up item, release to drop
+## Miro Board
 
-#### Board
-I initially imagined a board that you can walk around on, but realistically that will cause angry neck pains, since all the content will be at your feet.
-
-Then tried to imagine a Tony Stark like hologram solution, but can't imagine how we can take Miro 3D and make it useful.
-
-##### Proposed solution
-Similar to a real whiteboard, but infinite: you can scroll and zoom like on a Miro board.
-I imagined it small enough so that a person does not have to move around to reach all the corners of the board with extended arms, perhaps we can include some movement?
-
-##### Widget Palette
-Contains all the widgets a user can create. 
-
-Now I can't decide between making it persistent on the bottom board for instance or adding it to the users' arms, the latter might be more novel.
-
-Perhaps we can activate it on a certain gesture.
-
-#### Voice transcription
-I have no idea how to capture audio with Unreal or Unity, but if we can get it into a known format, I have a go service that works with the Google Language API's to transcribe it.
-
-#### Websockets
-Ideally we would tap into the monoliths websocket channels, but I'm woefully clueless about the authentication, format and encoding it expects.
-
+The Board used is currently configured as the default value in the Whiteboard > BoardID variable. Make sure you use a board in the same account from which you generated an API token.
